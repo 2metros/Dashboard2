@@ -1,0 +1,14 @@
+{
+  "name": "cartera-proxy",
+  "version": "1.0.0",
+  "description": "Proxy local para dashboard de cartera financiera",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
